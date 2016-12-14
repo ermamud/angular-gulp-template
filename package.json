@@ -1,0 +1,61 @@
+{
+  "name": "angular-gulp-template",
+  "version": "1.0.0",
+  "description": "Template for Angular based projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermamud/angular-gulp-template.git"
+  },
+  "author": "Ernesto Ruano <ermamud@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "2.11.2",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bump": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^1.1.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inject": "^4.0.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-ng-config": "^1.3.1",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-useref": "^2.1.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "wiredep": "^4.0.0",
+    "yargs": "^4.3.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.8.2",
+    "compression": "^1.1.0",
+    "cors": "^2.2.0",
+    "express": "^4.9.3",
+    "morgan": "^1.1.1",
+    "serve-favicon": "^2.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/ermamud/angular-gulp-template/issues"
+  },
+  "homepage": "https://github.com/ermamud/angular-gulp-template#readme"
+}

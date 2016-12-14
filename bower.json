@@ -1,0 +1,36 @@
+{
+  "name": "angular-gulp-template",
+  "description": "Template for Angular based projects",
+  "main": "index.js",
+  "authors": [
+    "Ernesto Ruano <ermamud@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ermamud/angular-gulp-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "angular": "^1.5.6",
+    "angular-animate": "^1.5.3",
+    "ngstorage": "^0.3.10",
+    "angular-sanitize": "^1.5.3",
+    "angular-ui-router": "^0.2.18",
+    "angular-ui-mask": "^1.8.7"
+  },
+  "overrides": {
+    "angular": {
+      "dependencies": {
+        "jquery": "^3.0.0"
+      }
+    }
+  },
+  "resolutions": {
+    "angular": ">=1.5.0"
+  }
+}
